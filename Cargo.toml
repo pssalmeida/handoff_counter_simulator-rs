@@ -1,0 +1,12 @@
+[package]
+name = "counter_simulator"
+version = "0.1.0"
+authors = ["Paulo Sérgio Almeida <pssalmeida@gmail.com>"]
+
+[dependencies]
+#devesim = { path = "../devesim-rs" }
+devesim = { git = "https://github.com/pssalmeida/devesim-rs.git" }
+#handoff_counter = { path = "../handoff_counter-rs" }
+handoff_counter = { git = "https://github.com/pssalmeida/handoff_counter-rs.git" }
+rand = "0.3.14"
+roaring = "0.4.0"

@@ -1,0 +1,319 @@
+time	clients	active	ids	slots
+received: Counter { id: 3, tier: 2, val: 2, below: 0, vals: {3: 2}, sck: 0, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 1, below: 0, vals: {2: 1}, sck: 0, dck: 1, slots: {3: (0, 0)}, tokens: {} }
+100	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 4, below: 1, vals: {3: 0}, sck: 1, dck: 0, slots: {}, tokens: {(3, 2): (0, 0, 3)} }
+merged:Counter { id: 2, tier: 1, val: 4, below: 1, vals: {2: 3}, sck: 1, dck: 1, slots: {}, tokens: {(2, 1): (0, 0, 1)} }
+200	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 5, below: 4, vals: {3: 1}, sck: 1, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 5, below: 2, vals: {2: 3}, sck: 1, dck: 2, slots: {3: (1, 1)}, tokens: {} }
+300	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 7, below: 5, vals: {3: 0}, sck: 2, dck: 0, slots: {}, tokens: {(3, 2): (1, 1, 2)} }
+merged:Counter { id: 2, tier: 1, val: 5, below: 2, vals: {2: 2}, sck: 2, dck: 2, slots: {}, tokens: {(2, 1): (1, 1, 3)} }
+received: Counter { id: 3, tier: 2, val: 8, below: 5, vals: {3: 1}, sck: 2, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 7, below: 5, vals: {2: 2}, sck: 2, dck: 3, slots: {3: (2, 2)}, tokens: {} }
+400	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 9, below: 7, vals: {3: 0}, sck: 3, dck: 0, slots: {}, tokens: {(3, 2): (2, 2, 2)} }
+merged:Counter { id: 2, tier: 1, val: 7, below: 5, vals: {2: 2}, sck: 3, dck: 3, slots: {}, tokens: {(2, 1): (2, 2, 2)} }
+500	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 10, below: 7, vals: {3: 1}, sck: 3, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 9, below: 7, vals: {2: 2}, sck: 3, dck: 4, slots: {3: (3, 3)}, tokens: {} }
+600	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 11, below: 9, vals: {3: 0}, sck: 4, dck: 0, slots: {}, tokens: {(3, 2): (3, 3, 2)} }
+merged:Counter { id: 2, tier: 1, val: 11, below: 9, vals: {2: 2}, sck: 4, dck: 4, slots: {}, tokens: {} }
+700	1	1	3	0
+800	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 12, below: 11, vals: {3: 1}, sck: 4, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 11, below: 9, vals: {2: 2}, sck: 4, dck: 5, slots: {3: (4, 4)}, tokens: {} }
+received: Counter { id: 3, tier: 2, val: 13, below: 11, vals: {3: 0}, sck: 5, dck: 0, slots: {}, tokens: {(3, 2): (4, 4, 2)} }
+merged:Counter { id: 2, tier: 1, val: 11, below: 9, vals: {2: 2}, sck: 5, dck: 5, slots: {}, tokens: {(2, 1): (4, 4, 2)} }
+900	1	1	3	0
+1000	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 14, below: 11, vals: {3: 1}, sck: 5, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 13, below: 11, vals: {2: 2}, sck: 5, dck: 6, slots: {3: (5, 5)}, tokens: {} }
+received: Counter { id: 3, tier: 2, val: 15, below: 13, vals: {3: 0}, sck: 6, dck: 0, slots: {}, tokens: {(3, 2): (5, 5, 2)} }
+merged:Counter { id: 2, tier: 1, val: 13, below: 11, vals: {2: 2}, sck: 6, dck: 6, slots: {}, tokens: {(2, 1): (5, 5, 2)} }
+1100	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 16, below: 13, vals: {3: 1}, sck: 6, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 15, below: 13, vals: {2: 2}, sck: 6, dck: 7, slots: {3: (6, 6)}, tokens: {} }
+1200	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 17, below: 15, vals: {3: 0}, sck: 7, dck: 0, slots: {}, tokens: {(3, 2): (6, 6, 2)} }
+merged:Counter { id: 2, tier: 1, val: 15, below: 13, vals: {2: 2}, sck: 7, dck: 7, slots: {}, tokens: {(2, 1): (6, 6, 2)} }
+1300	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 18, below: 15, vals: {3: 1}, sck: 7, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 17, below: 15, vals: {2: 2}, sck: 7, dck: 8, slots: {3: (7, 7)}, tokens: {} }
+1400	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 19, below: 17, vals: {3: 0}, sck: 8, dck: 0, slots: {}, tokens: {(3, 2): (7, 7, 2)} }
+merged:Counter { id: 2, tier: 1, val: 17, below: 15, vals: {2: 2}, sck: 8, dck: 8, slots: {}, tokens: {(2, 1): (7, 7, 2)} }
+1500	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 20, below: 17, vals: {3: 1}, sck: 8, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 19, below: 17, vals: {2: 2}, sck: 8, dck: 9, slots: {3: (8, 8)}, tokens: {} }
+received: Counter { id: 3, tier: 2, val: 21, below: 19, vals: {3: 0}, sck: 9, dck: 0, slots: {}, tokens: {(3, 2): (8, 8, 2)} }
+merged:Counter { id: 2, tier: 1, val: 21, below: 17, vals: {2: 4}, sck: 8, dck: 9, slots: {}, tokens: {} }
+1600	1	1	3	0
+1700	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 22, below: 21, vals: {3: 1}, sck: 9, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 21, below: 21, vals: {2: 0}, sck: 9, dck: 10, slots: {3: (9, 9)}, tokens: {} }
+1800	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 23, below: 21, vals: {3: 0}, sck: 10, dck: 0, slots: {}, tokens: {(3, 2): (9, 9, 2)} }
+merged:Counter { id: 2, tier: 1, val: 23, below: 21, vals: {2: 2}, sck: 9, dck: 10, slots: {}, tokens: {} }
+1900	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 24, below: 23, vals: {3: 1}, sck: 10, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 23, below: 21, vals: {2: 2}, sck: 9, dck: 11, slots: {3: (10, 10)}, tokens: {} }
+2000	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 25, below: 23, vals: {3: 0}, sck: 11, dck: 0, slots: {}, tokens: {(3, 2): (10, 10, 2)} }
+merged:Counter { id: 2, tier: 1, val: 23, below: 21, vals: {2: 2}, sck: 10, dck: 11, slots: {}, tokens: {(2, 1): (9, 9, 2)} }
+2100	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 26, below: 23, vals: {3: 1}, sck: 11, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 25, below: 23, vals: {2: 0}, sck: 11, dck: 12, slots: {3: (11, 11)}, tokens: {(2, 1): (10, 10, 2)} }
+2200	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 27, below: 25, vals: {3: 0}, sck: 12, dck: 0, slots: {}, tokens: {(3, 2): (11, 11, 2)} }
+merged:Counter { id: 2, tier: 1, val: 25, below: 23, vals: {2: 2}, sck: 11, dck: 12, slots: {}, tokens: {(2, 1): (10, 10, 2)} }
+2300	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 28, below: 25, vals: {3: 1}, sck: 12, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 27, below: 25, vals: {2: 2}, sck: 11, dck: 13, slots: {3: (12, 12)}, tokens: {} }
+received: Counter { id: 3, tier: 2, val: 29, below: 27, vals: {3: 0}, sck: 13, dck: 0, slots: {}, tokens: {(3, 2): (12, 12, 2)} }
+merged:Counter { id: 2, tier: 1, val: 27, below: 25, vals: {2: 2}, sck: 12, dck: 13, slots: {}, tokens: {(2, 1): (11, 11, 2)} }
+2400	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 30, below: 27, vals: {3: 1}, sck: 13, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 29, below: 27, vals: {2: 2}, sck: 12, dck: 14, slots: {3: (13, 13)}, tokens: {} }
+2500	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 31, below: 29, vals: {3: 0}, sck: 14, dck: 0, slots: {}, tokens: {(3, 2): (13, 13, 2)} }
+merged:Counter { id: 2, tier: 1, val: 29, below: 27, vals: {2: 2}, sck: 13, dck: 14, slots: {}, tokens: {(2, 1): (12, 12, 2)} }
+2600	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 32, below: 29, vals: {3: 1}, sck: 14, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 29, below: 27, vals: {2: 2}, sck: 13, dck: 15, slots: {3: (14, 14)}, tokens: {(2, 1): (12, 12, 2)} }
+received: Counter { id: 3, tier: 2, val: 33, below: 29, vals: {3: 0}, sck: 15, dck: 0, slots: {}, tokens: {(3, 2): (14, 14, 2)} }
+merged:Counter { id: 2, tier: 1, val: 33, below: 29, vals: {2: 4}, sck: 13, dck: 15, slots: {}, tokens: {} }
+2700	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 34, below: 33, vals: {3: 1}, sck: 15, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 33, below: 29, vals: {2: 0}, sck: 14, dck: 16, slots: {3: (15, 15)}, tokens: {(2, 1): (13, 13, 4)} }
+2800	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 35, below: 33, vals: {3: 0}, sck: 16, dck: 0, slots: {}, tokens: {(3, 2): (15, 15, 2)} }
+merged:Counter { id: 2, tier: 1, val: 35, below: 33, vals: {2: 2}, sck: 14, dck: 16, slots: {}, tokens: {} }
+2900	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 36, below: 35, vals: {3: 1}, sck: 16, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 35, below: 33, vals: {2: 0}, sck: 15, dck: 17, slots: {3: (16, 16)}, tokens: {(2, 1): (14, 14, 2)} }
+3000	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 37, below: 35, vals: {3: 0}, sck: 17, dck: 0, slots: {}, tokens: {(3, 2): (16, 16, 2)} }
+merged:Counter { id: 2, tier: 1, val: 37, below: 35, vals: {2: 2}, sck: 15, dck: 17, slots: {}, tokens: {} }
+3100	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 38, below: 37, vals: {3: 1}, sck: 17, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 37, below: 35, vals: {2: 2}, sck: 15, dck: 18, slots: {3: (17, 17)}, tokens: {} }
+3200	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 39, below: 37, vals: {3: 0}, sck: 18, dck: 0, slots: {}, tokens: {(3, 2): (17, 17, 2)} }
+merged:Counter { id: 2, tier: 1, val: 39, below: 35, vals: {2: 4}, sck: 15, dck: 18, slots: {}, tokens: {} }
+3300	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 40, below: 39, vals: {3: 1}, sck: 18, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 39, below: 39, vals: {2: 0}, sck: 16, dck: 19, slots: {3: (18, 18)}, tokens: {} }
+received: Counter { id: 3, tier: 2, val: 41, below: 39, vals: {3: 0}, sck: 19, dck: 0, slots: {}, tokens: {(3, 2): (18, 18, 2)} }
+merged:Counter { id: 2, tier: 1, val: 41, below: 39, vals: {2: 2}, sck: 16, dck: 19, slots: {}, tokens: {} }
+3400	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 42, below: 41, vals: {3: 1}, sck: 19, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 41, below: 39, vals: {2: 2}, sck: 16, dck: 20, slots: {3: (19, 19)}, tokens: {} }
+3500	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 43, below: 41, vals: {3: 0}, sck: 20, dck: 0, slots: {}, tokens: {(3, 2): (19, 19, 2)} }
+merged:Counter { id: 2, tier: 1, val: 41, below: 39, vals: {2: 2}, sck: 17, dck: 20, slots: {}, tokens: {(2, 1): (16, 16, 2)} }
+3600	1	1	3	0
+3700	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 44, below: 41, vals: {3: 1}, sck: 20, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 43, below: 41, vals: {2: 2}, sck: 17, dck: 21, slots: {3: (20, 20)}, tokens: {} }
+3800	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 45, below: 43, vals: {3: 0}, sck: 21, dck: 0, slots: {}, tokens: {(3, 2): (20, 20, 2)} }
+merged:Counter { id: 2, tier: 1, val: 43, below: 41, vals: {2: 2}, sck: 18, dck: 21, slots: {}, tokens: {(2, 1): (17, 17, 2)} }
+received: Counter { id: 3, tier: 2, val: 46, below: 43, vals: {3: 1}, sck: 21, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 45, below: 43, vals: {2: 2}, sck: 18, dck: 22, slots: {3: (21, 21)}, tokens: {} }
+3900	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 47, below: 45, vals: {3: 0}, sck: 22, dck: 0, slots: {}, tokens: {(3, 2): (21, 21, 2)} }
+merged:Counter { id: 2, tier: 1, val: 45, below: 43, vals: {2: 2}, sck: 19, dck: 22, slots: {}, tokens: {(2, 1): (18, 18, 2)} }
+4000	1	1	3	0
+4100	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 48, below: 45, vals: {3: 1}, sck: 22, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 47, below: 45, vals: {2: 2}, sck: 19, dck: 23, slots: {3: (22, 22)}, tokens: {} }
+4200	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 49, below: 47, vals: {3: 0}, sck: 23, dck: 0, slots: {}, tokens: {(3, 2): (22, 22, 2)} }
+merged:Counter { id: 2, tier: 1, val: 47, below: 45, vals: {2: 2}, sck: 20, dck: 23, slots: {}, tokens: {(2, 1): (19, 19, 2)} }
+received: Counter { id: 3, tier: 2, val: 50, below: 47, vals: {3: 1}, sck: 23, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 49, below: 47, vals: {2: 2}, sck: 20, dck: 24, slots: {3: (23, 23)}, tokens: {} }
+4300	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 51, below: 49, vals: {3: 0}, sck: 24, dck: 0, slots: {}, tokens: {(3, 2): (23, 23, 2)} }
+merged:Counter { id: 2, tier: 1, val: 49, below: 47, vals: {2: 2}, sck: 21, dck: 24, slots: {}, tokens: {(2, 1): (20, 20, 2)} }
+4400	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 52, below: 49, vals: {3: 1}, sck: 24, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 51, below: 49, vals: {2: 2}, sck: 21, dck: 25, slots: {3: (24, 24)}, tokens: {} }
+4500	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 53, below: 51, vals: {3: 0}, sck: 25, dck: 0, slots: {}, tokens: {(3, 2): (24, 24, 2)} }
+merged:Counter { id: 2, tier: 1, val: 53, below: 51, vals: {2: 2}, sck: 22, dck: 25, slots: {}, tokens: {} }
+4600	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 54, below: 53, vals: {3: 1}, sck: 25, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 53, below: 51, vals: {2: 2}, sck: 22, dck: 26, slots: {3: (25, 25)}, tokens: {} }
+4700	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 55, below: 53, vals: {3: 0}, sck: 26, dck: 0, slots: {}, tokens: {(3, 2): (25, 25, 2)} }
+merged:Counter { id: 2, tier: 1, val: 55, below: 51, vals: {2: 4}, sck: 22, dck: 26, slots: {}, tokens: {} }
+4800	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 56, below: 55, vals: {3: 1}, sck: 26, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 55, below: 51, vals: {2: 0}, sck: 23, dck: 27, slots: {3: (26, 26)}, tokens: {(2, 1): (22, 22, 4)} }
+4900	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 57, below: 55, vals: {3: 0}, sck: 27, dck: 0, slots: {}, tokens: {(3, 2): (26, 26, 2)} }
+merged:Counter { id: 2, tier: 1, val: 57, below: 55, vals: {2: 2}, sck: 23, dck: 27, slots: {}, tokens: {} }
+5000	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 58, below: 57, vals: {3: 1}, sck: 27, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 57, below: 55, vals: {2: 2}, sck: 23, dck: 28, slots: {3: (27, 27)}, tokens: {} }
+5100	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 59, below: 57, vals: {3: 0}, sck: 28, dck: 0, slots: {}, tokens: {(3, 2): (27, 27, 2)} }
+merged:Counter { id: 2, tier: 1, val: 59, below: 57, vals: {2: 2}, sck: 24, dck: 28, slots: {}, tokens: {} }
+received: Counter { id: 3, tier: 2, val: 60, below: 59, vals: {3: 1}, sck: 28, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 59, below: 57, vals: {2: 2}, sck: 24, dck: 29, slots: {3: (28, 28)}, tokens: {} }
+5200	1	1	3	1
+5300	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 61, below: 59, vals: {3: 0}, sck: 29, dck: 0, slots: {}, tokens: {(3, 2): (28, 28, 2)} }
+merged:Counter { id: 2, tier: 1, val: 59, below: 57, vals: {2: 2}, sck: 25, dck: 29, slots: {}, tokens: {(2, 1): (24, 24, 2)} }
+received: Counter { id: 3, tier: 2, val: 62, below: 59, vals: {3: 1}, sck: 29, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 61, below: 59, vals: {2: 2}, sck: 25, dck: 30, slots: {3: (29, 29)}, tokens: {} }
+5400	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 63, below: 61, vals: {3: 0}, sck: 30, dck: 0, slots: {}, tokens: {(3, 2): (29, 29, 2)} }
+merged:Counter { id: 2, tier: 1, val: 61, below: 59, vals: {2: 2}, sck: 26, dck: 30, slots: {}, tokens: {(2, 1): (25, 25, 2)} }
+5500	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 64, below: 61, vals: {3: 1}, sck: 30, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 63, below: 61, vals: {2: 2}, sck: 26, dck: 31, slots: {3: (30, 30)}, tokens: {} }
+5600	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 65, below: 63, vals: {3: 0}, sck: 31, dck: 0, slots: {}, tokens: {(3, 2): (30, 30, 2)} }
+merged:Counter { id: 2, tier: 1, val: 63, below: 61, vals: {2: 2}, sck: 27, dck: 31, slots: {}, tokens: {(2, 1): (26, 26, 2)} }
+5700	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 66, below: 63, vals: {3: 1}, sck: 31, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 65, below: 63, vals: {2: 2}, sck: 27, dck: 32, slots: {3: (31, 31)}, tokens: {} }
+5800	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 67, below: 65, vals: {3: 0}, sck: 32, dck: 0, slots: {}, tokens: {(3, 2): (31, 31, 2)} }
+merged:Counter { id: 2, tier: 1, val: 65, below: 63, vals: {2: 2}, sck: 28, dck: 32, slots: {}, tokens: {(2, 1): (27, 27, 2)} }
+5900	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 68, below: 65, vals: {3: 1}, sck: 32, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 67, below: 65, vals: {2: 2}, sck: 28, dck: 33, slots: {3: (32, 32)}, tokens: {} }
+6000	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 69, below: 67, vals: {3: 0}, sck: 33, dck: 0, slots: {}, tokens: {(3, 2): (32, 32, 2)} }
+merged:Counter { id: 2, tier: 1, val: 67, below: 65, vals: {2: 2}, sck: 29, dck: 33, slots: {}, tokens: {(2, 1): (28, 28, 2)} }
+6100	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 70, below: 67, vals: {3: 1}, sck: 33, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 69, below: 67, vals: {2: 2}, sck: 29, dck: 34, slots: {3: (33, 33)}, tokens: {} }
+received: Counter { id: 3, tier: 2, val: 71, below: 69, vals: {3: 0}, sck: 34, dck: 0, slots: {}, tokens: {(3, 2): (33, 33, 2)} }
+merged:Counter { id: 2, tier: 1, val: 69, below: 67, vals: {2: 2}, sck: 30, dck: 34, slots: {}, tokens: {(2, 1): (29, 29, 2)} }
+6200	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 72, below: 69, vals: {3: 1}, sck: 34, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 71, below: 69, vals: {2: 2}, sck: 30, dck: 35, slots: {3: (34, 34)}, tokens: {} }
+6300	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 73, below: 71, vals: {3: 0}, sck: 35, dck: 0, slots: {}, tokens: {(3, 2): (34, 34, 2)} }
+merged:Counter { id: 2, tier: 1, val: 71, below: 69, vals: {2: 2}, sck: 31, dck: 35, slots: {}, tokens: {(2, 1): (30, 30, 2)} }
+6400	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 74, below: 71, vals: {3: 1}, sck: 35, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 73, below: 71, vals: {2: 2}, sck: 31, dck: 36, slots: {3: (35, 35)}, tokens: {} }
+6500	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 75, below: 73, vals: {3: 0}, sck: 36, dck: 0, slots: {}, tokens: {(3, 2): (35, 35, 2)} }
+merged:Counter { id: 2, tier: 1, val: 73, below: 71, vals: {2: 2}, sck: 32, dck: 36, slots: {}, tokens: {(2, 1): (31, 31, 2)} }
+6600	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 76, below: 73, vals: {3: 1}, sck: 36, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 75, below: 73, vals: {2: 0}, sck: 33, dck: 37, slots: {3: (36, 36)}, tokens: {(2, 1): (32, 32, 2)} }
+6700	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 77, below: 75, vals: {3: 0}, sck: 37, dck: 0, slots: {}, tokens: {(3, 2): (36, 36, 2)} }
+merged:Counter { id: 2, tier: 1, val: 75, below: 73, vals: {2: 2}, sck: 33, dck: 37, slots: {}, tokens: {(2, 1): (32, 32, 2)} }
+6800	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 78, below: 75, vals: {3: 1}, sck: 37, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 77, below: 75, vals: {2: 2}, sck: 33, dck: 38, slots: {3: (37, 37)}, tokens: {} }
+6900	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 79, below: 77, vals: {3: 0}, sck: 38, dck: 0, slots: {}, tokens: {(3, 2): (37, 37, 2)} }
+merged:Counter { id: 2, tier: 1, val: 77, below: 75, vals: {2: 2}, sck: 34, dck: 38, slots: {}, tokens: {(2, 1): (33, 33, 2)} }
+7000	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 80, below: 77, vals: {3: 1}, sck: 38, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 79, below: 77, vals: {2: 2}, sck: 34, dck: 39, slots: {3: (38, 38)}, tokens: {} }
+7100	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 81, below: 79, vals: {3: 0}, sck: 39, dck: 0, slots: {}, tokens: {(3, 2): (38, 38, 2)} }
+merged:Counter { id: 2, tier: 1, val: 79, below: 77, vals: {2: 2}, sck: 35, dck: 39, slots: {}, tokens: {(2, 1): (34, 34, 2)} }
+7200	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 82, below: 79, vals: {3: 1}, sck: 39, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 81, below: 79, vals: {2: 2}, sck: 35, dck: 40, slots: {3: (39, 39)}, tokens: {} }
+received: Counter { id: 3, tier: 2, val: 83, below: 81, vals: {3: 0}, sck: 40, dck: 0, slots: {}, tokens: {(3, 2): (39, 39, 2)} }
+merged:Counter { id: 2, tier: 1, val: 81, below: 79, vals: {2: 2}, sck: 36, dck: 40, slots: {}, tokens: {(2, 1): (35, 35, 2)} }
+7300	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 84, below: 81, vals: {3: 1}, sck: 40, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 83, below: 81, vals: {2: 2}, sck: 36, dck: 41, slots: {3: (40, 40)}, tokens: {} }
+7400	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 85, below: 83, vals: {3: 0}, sck: 41, dck: 0, slots: {}, tokens: {(3, 2): (40, 40, 2)} }
+merged:Counter { id: 2, tier: 1, val: 83, below: 81, vals: {2: 2}, sck: 37, dck: 41, slots: {}, tokens: {(2, 1): (36, 36, 2)} }
+7500	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 86, below: 83, vals: {3: 1}, sck: 41, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 85, below: 83, vals: {2: 2}, sck: 37, dck: 42, slots: {3: (41, 41)}, tokens: {} }
+7600	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 87, below: 85, vals: {3: 0}, sck: 42, dck: 0, slots: {}, tokens: {(3, 2): (41, 41, 2)} }
+merged:Counter { id: 2, tier: 1, val: 85, below: 83, vals: {2: 2}, sck: 38, dck: 42, slots: {}, tokens: {(2, 1): (37, 37, 2)} }
+7700	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 88, below: 85, vals: {3: 1}, sck: 42, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 87, below: 85, vals: {2: 2}, sck: 38, dck: 43, slots: {3: (42, 42)}, tokens: {} }
+7800	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 89, below: 87, vals: {3: 0}, sck: 43, dck: 0, slots: {}, tokens: {(3, 2): (42, 42, 2)} }
+merged:Counter { id: 2, tier: 1, val: 87, below: 85, vals: {2: 2}, sck: 39, dck: 43, slots: {}, tokens: {(2, 1): (38, 38, 2)} }
+7900	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 90, below: 87, vals: {3: 1}, sck: 43, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 89, below: 87, vals: {2: 2}, sck: 39, dck: 44, slots: {3: (43, 43)}, tokens: {} }
+8000	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 91, below: 89, vals: {3: 0}, sck: 44, dck: 0, slots: {}, tokens: {(3, 2): (43, 43, 2)} }
+merged:Counter { id: 2, tier: 1, val: 89, below: 87, vals: {2: 2}, sck: 40, dck: 44, slots: {}, tokens: {(2, 1): (39, 39, 2)} }
+8100	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 92, below: 89, vals: {3: 1}, sck: 44, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 91, below: 89, vals: {2: 2}, sck: 40, dck: 45, slots: {3: (44, 44)}, tokens: {} }
+8200	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 93, below: 91, vals: {3: 0}, sck: 45, dck: 0, slots: {}, tokens: {(3, 2): (44, 44, 2)} }
+merged:Counter { id: 2, tier: 1, val: 91, below: 89, vals: {2: 2}, sck: 41, dck: 45, slots: {}, tokens: {(2, 1): (40, 40, 2)} }
+received: Counter { id: 3, tier: 2, val: 94, below: 91, vals: {3: 1}, sck: 45, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 93, below: 91, vals: {2: 2}, sck: 41, dck: 46, slots: {3: (45, 45)}, tokens: {} }
+8300	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 95, below: 93, vals: {3: 0}, sck: 46, dck: 0, slots: {}, tokens: {(3, 2): (45, 45, 2)} }
+merged:Counter { id: 2, tier: 1, val: 93, below: 91, vals: {2: 2}, sck: 42, dck: 46, slots: {}, tokens: {(2, 1): (41, 41, 2)} }
+8400	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 96, below: 93, vals: {3: 1}, sck: 46, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 93, below: 91, vals: {2: 2}, sck: 42, dck: 47, slots: {3: (46, 46)}, tokens: {(2, 1): (41, 41, 2)} }
+8500	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 97, below: 93, vals: {3: 0}, sck: 47, dck: 0, slots: {}, tokens: {(3, 2): (46, 46, 2)} }
+merged:Counter { id: 2, tier: 1, val: 97, below: 93, vals: {2: 4}, sck: 42, dck: 47, slots: {}, tokens: {} }
+8600	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 98, below: 97, vals: {3: 1}, sck: 47, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 97, below: 93, vals: {2: 0}, sck: 43, dck: 48, slots: {3: (47, 47)}, tokens: {(2, 1): (42, 42, 4)} }
+8700	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 99, below: 97, vals: {3: 0}, sck: 48, dck: 0, slots: {}, tokens: {(3, 2): (47, 47, 2)} }
+merged:Counter { id: 2, tier: 1, val: 99, below: 97, vals: {2: 2}, sck: 43, dck: 48, slots: {}, tokens: {} }
+8800	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 100, below: 99, vals: {3: 1}, sck: 48, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 99, below: 97, vals: {2: 2}, sck: 43, dck: 49, slots: {3: (48, 48)}, tokens: {} }
+8900	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 101, below: 99, vals: {3: 0}, sck: 49, dck: 0, slots: {}, tokens: {(3, 2): (48, 48, 2)} }
+merged:Counter { id: 2, tier: 1, val: 99, below: 97, vals: {2: 2}, sck: 44, dck: 49, slots: {}, tokens: {(2, 1): (43, 43, 2)} }
+9000	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 102, below: 99, vals: {3: 1}, sck: 49, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 101, below: 99, vals: {2: 2}, sck: 44, dck: 50, slots: {3: (49, 49)}, tokens: {} }
+9100	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 103, below: 101, vals: {3: 0}, sck: 50, dck: 0, slots: {}, tokens: {(3, 2): (49, 49, 2)} }
+merged:Counter { id: 2, tier: 1, val: 101, below: 99, vals: {2: 2}, sck: 45, dck: 50, slots: {}, tokens: {(2, 1): (44, 44, 2)} }
+9200	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 104, below: 101, vals: {3: 1}, sck: 50, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 103, below: 101, vals: {2: 2}, sck: 45, dck: 51, slots: {3: (50, 50)}, tokens: {} }
+received: Counter { id: 3, tier: 2, val: 105, below: 103, vals: {3: 0}, sck: 51, dck: 0, slots: {}, tokens: {(3, 2): (50, 50, 2)} }
+merged:Counter { id: 2, tier: 1, val: 103, below: 101, vals: {2: 2}, sck: 46, dck: 51, slots: {}, tokens: {(2, 1): (45, 45, 2)} }
+9300	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 106, below: 103, vals: {3: 1}, sck: 51, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 105, below: 103, vals: {2: 2}, sck: 46, dck: 52, slots: {3: (51, 51)}, tokens: {} }
+9400	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 107, below: 105, vals: {3: 0}, sck: 52, dck: 0, slots: {}, tokens: {(3, 2): (51, 51, 2)} }
+merged:Counter { id: 2, tier: 1, val: 105, below: 103, vals: {2: 2}, sck: 47, dck: 52, slots: {}, tokens: {(2, 1): (46, 46, 2)} }
+9500	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 108, below: 105, vals: {3: 1}, sck: 52, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 107, below: 105, vals: {2: 2}, sck: 47, dck: 53, slots: {3: (52, 52)}, tokens: {} }
+9600	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 109, below: 107, vals: {3: 0}, sck: 53, dck: 0, slots: {}, tokens: {(3, 2): (52, 52, 2)} }
+merged:Counter { id: 2, tier: 1, val: 109, below: 105, vals: {2: 4}, sck: 47, dck: 53, slots: {}, tokens: {} }
+9700	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 110, below: 109, vals: {3: 1}, sck: 53, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 109, below: 109, vals: {2: 0}, sck: 48, dck: 54, slots: {3: (53, 53)}, tokens: {} }
+9800	1	1	3	1
+received: Counter { id: 3, tier: 2, val: 111, below: 109, vals: {3: 0}, sck: 54, dck: 0, slots: {}, tokens: {(3, 2): (53, 53, 2)} }
+merged:Counter { id: 2, tier: 1, val: 111, below: 109, vals: {2: 2}, sck: 48, dck: 54, slots: {}, tokens: {} }
+9900	1	1	3	0
+received: Counter { id: 3, tier: 2, val: 112, below: 111, vals: {3: 1}, sck: 54, dck: 0, slots: {}, tokens: {} }
+merged:Counter { id: 2, tier: 1, val: 111, below: 109, vals: {2: 2}, sck: 48, dck: 55, slots: {3: (54, 54)}, tokens: {} }
+10000	1	1	3	1
