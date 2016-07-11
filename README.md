@@ -1,6 +1,6 @@
 # Handoff Counters Simulator
 
-** Simulates distributed executions of *Handoff Counters* - eventually consistent
+Simulates distributed executions of *Handoff Counters* - eventually consistent
 distributed counters, as presented in http://arxiv.org/abs/1307.3207
 
 
